@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-const API_URL = '/api/users'
+
+const PROXY= 'https://goal-setter.cyclic.app'
+
+const API_URL = PROXY+'/api/users'
 
 // Register User
 const register = async(userData) => {
