@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const PROXY= 'https://goal-setter.cyclic.app'
+const PROXY= 'https://goalsetter.cyclic.app'
 
 const API_URL = PROXY+'/api/users'
 
